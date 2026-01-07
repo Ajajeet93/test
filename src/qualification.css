@@ -1,0 +1,10 @@
+#table {
+    width: 100%;
+    border-collapse: collapse; /* Removes double borders */
+  }
+
+  #table th, td {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: left;
+  }

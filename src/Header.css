@@ -1,0 +1,22 @@
+#header{
+    display: flex;
+    padding: 5px 2rem;
+    justify-content: space-between;
+}
+
+#user_info{
+    text-align: start;
+}
+#user_img{
+    height: 250px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+#user_img img{
+    object-fit:  cover;
+    height: 100%;
+    width: 100%;
+}
